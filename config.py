@@ -1,50 +1,25 @@
-from environs import Env
-from pydantic import BaseModel
+import os
+
+from pydantic import BaseSettings
 
 
-class Bot(BaseModel):
-    """
-    Bot configuration
-    """
-    token: str
-    admins: list
-    debug: bool
+class Settings(BaseSettings):
+    bot_token: str
+    admins: list[int]
+    debug: bool = False
+
+    db_host: str = "localhost"
+    db_port: int = 27017
+    db_username: str = ""
+    db_password: str = ""
+    db_database: str = "myidbot"
+
+    i18n_domain: str = "myidbot"
+    i18n_localedir = os.path.join(os.path.dirname(__file__), "locales")
+
+    class Config:
+        env_file = ".env"
+        env_file_encoding = "utf-8"
 
 
-class Database(BaseModel):
-    """
-    Database configuration
-    """
-    host: str
-    port: int
-    username: str = None
-    password: str = None
-    database: str
-
-
-class Config(BaseModel):
-    """
-    Configuration model
-    """
-    bot: Bot
-    db: Database = None
-
-
-def load_config(path: str = None):
-    env = Env()
-    env.read_env(path)
-
-    return Config(
-        bot=Bot(
-            token=env.str("BOT_TOKEN"),
-            admins=env.list("ADMINS"),
-            debug=env.bool("DEBUG", False),
-        ),
-        db=Database(
-            host=env.str("DB_HOST"),
-            port=env.int("DB_PORT"),
-            username=env.str("DB_USERNAME"),
-            password=env.str("DB_PASSWORD"),
-            database=env.str("DB_DATABASE"),
-        ),
-    )
+settings = Settings()
