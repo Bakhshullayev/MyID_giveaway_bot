@@ -19,3 +19,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
+msgid "Siz bilan bog’lanish mumkin bo’ladigan raqamni kiriting"
+msgstr "Отправьте свой номер для связи"
+
+msgid "Siz ro'yxatdan o'tgansiz"
+msgstr "Вы зарегистрированы"
+
+msgid "Tilni o'zgartirish uchun bosing"
+msgstr "Выберите язык"
+
+msgid "Tanlovning barcha shartlari bajarilganligini tekshirish uchun"
+"Instagramdagi nikneymingizni yozib qoldiring"
+msgstr "Напишите свой никнейм в Instagram для проверки выполнения всех условий конкурса"
+
+msgid "Yoshingizni kiriting"
+msgstr "Укажите свой возраст"
+
+msgid "Sizning fikr-mulohazangiz"
+msgstr "Ваша идея"
+
+msgid "Fikr-mulohazangizni batafsil ifodalab bering"
+msgstr "Расскажите про свою идею подробнее"
+
+msgid "MyID texnologiyasini biznesda qo‘llash” mavzusidagi tanlov haqida fikringizni yozib qoldiring "
+msgstr "Отправляйте свои конкурсные идеи на тему "Применение технологии MyID в бизнесе"
+
+msgid "Javobingiz qabul qilindi! Ishtirok etganingiz uchun rahmat"
+msgstr "Ваш ответ принят! Спасибо за участие"
+

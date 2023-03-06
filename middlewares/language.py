@@ -4,14 +4,15 @@ from aiogram import types
 from aiogram.contrib.middlewares.i18n import I18nMiddleware
 
 from config import settings
-from loader import db
+
+from utils.database import db
 
 
 class Localization(I18nMiddleware):
     def __init__(
-            self,
-            domain: str = settings.i18n_domain,
-            path: str = settings.i18n_localedir,
+        self,
+        domain: str = settings.i18n_domain,
+        path: str = settings.i18n_localedir,
     ):
         super().__init__(domain, path, default="uz")
 

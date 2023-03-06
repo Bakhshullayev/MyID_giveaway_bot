@@ -18,3 +18,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
+msgid "Siz bilan bog’lanish mumkin bo’ladigan raqamni kiriting"
+msgstr "Siz bilan bog’lanish mumkin bo’ladigan raqamni kiriting"
+
+msgid "Siz ro'yxatdan o'tgansiz"
+msgstr "Siz ro'yxatdan o'tgansiz"
+
+msgid "Tilni o'zgartirish uchun bosing"
+msgstr "Tilni o'zgartirish uchun bosing"
+
+msgid "Tanlovning barcha shartlari bajarilganligini tekshirish uchun Instagramdagi nikneymingizni yozib qoldiring"
+msgstr "Tanlovning barcha shartlari bajarilganligini tekshirish uchun Instagramdagi nikneymingizni yozib qoldiring"
+
+msgid "Yoshingizni kiriting"
+msgstr "Yoshingizni kiriting"
+
+msgid "Sizning fikr-mulohazangiz"
+msgstr "Sizning fikr-mulohazangiz"
+
+msgid "Fikr-mulohazangizni batafsil ifodalab bering"/
+msgstr "Fikr-mulohazangizni batafsil ifodalab bering"
+
+msgid "MyID texnologiyasini biznesda qo‘llash” mavzusidagi tanlov haqida fikringizni yozib qoldiring"
+msgstr "MyID texnologiyasini biznesda qo‘llash” mavzusidagi tanlov haqida fikringizni yozib qoldiring"
+
+msgid "Javobingiz qabul qilindi! Ishtirok etganingiz uchun rahmat"
+msgstr "Javobingiz qabul qilindi! Ishtirok etganingiz uchun rahmat"
+

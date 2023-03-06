@@ -6,7 +6,9 @@ from aiogram.utils import exceptions
 from loader import bot
 
 
-async def send_message(user_id: int, text: str, disable_notification: bool = False) -> bool:
+async def send_message(
+    user_id: int, text: str, disable_notification: bool = False
+) -> bool:
     """
     Safe messages sender
     :param user_id:
@@ -21,7 +23,9 @@ async def send_message(user_id: int, text: str, disable_notification: bool = Fal
     except exceptions.ChatNotFound:
         logging.error(f"Target [ID:{user_id}]: invalid user ID")
     except exceptions.RetryAfter as e:
-        logging.error(f"Target [ID:{user_id}]: Flood limit is exceeded. Sleep {e.timeout} seconds.")
+        logging.error(
+            f"Target [ID:{user_id}]: Flood limit is exceeded. Sleep {e.timeout} seconds."
+        )
         await asyncio.sleep(e.timeout)
         return await send_message(user_id, text)  # Recursive call
     except exceptions.UserDeactivated:
