@@ -38,10 +38,10 @@ msgstr ""
 msgid "Fikr-mulohazangizni batafsil ifodalab bering"
 msgstr ""
 
-msgid "MyID texnologiyasini biznesda qo‘llash” mavzusidagi tanlov haqida fikringizni yozib qoldiring"
+msgid "\"MyID texnologiyasini biznesda qo‘llash\" mavzusidagi tanlov haqida fikringizni yozib qoldiring"
 msgstr ""
 
-msgid "Javobingiz qabul qilindi! Ishtirok etganingiz uchun rahmat"
+msgid "Javobingiz qabul qilindi! Ishtirok etganingiz uchun rahmat."
 msgstr ""
 
 

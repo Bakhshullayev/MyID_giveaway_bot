@@ -29,7 +29,7 @@ class MongoDB:
             await self.db.language.insert_one({"user_id": user_id, "lang": "uz"})
 
         data = await self.db.language.find_one({"user_id": user_id})
-        return data.get('lang')
+        return data.get("lang")
 
     async def user_info(self, user_id):
         if await self.db.users.find_one({"user_id": user_id}) is None:

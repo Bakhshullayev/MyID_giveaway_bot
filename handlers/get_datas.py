@@ -49,7 +49,7 @@ async def get_age(msg: types.Message, state: FSMContext):
 async def get_age(msg: types.Message, state: FSMContext):
     await state.update_data(ideaDescription=msg.text)
     text = _(
-        "MyID texnologiyasini biznesda qo‘llash” mavzusidagi tanlov haqida fikringizni yozib qoldiring."
+        "\"MyID texnologiyasini biznesda qo‘llash\" mavzusidagi tanlov haqida fikringizni yozib qoldiring"
     )
     await msg.answer(text)
     await Form.ideaAboutBot.set()
@@ -63,12 +63,12 @@ async def get_age(msg: types.Message, state: FSMContext):
     await msg.answer(text)
     await db.update_info(user_id=msg.from_user.id, data=data)
     text = (
-        f"Telefon raqam: {data.get('phoneNumber')}\n"
-        f"Instagram Username: {data.get('instagramUsername')}\n"
-        f"Yosh: {data.get('age')}\n"
-        f"Fikr-mulohaza: {data.get('idea')}\n"
-        f"Xulosa: {data.get('ideaDescription')}\n"
-        f""
+        f"<b>📲 Telefon raqam:</b> {data.get('phoneNumber')}\n"
+        f"<b>🪧 Instagram Username:</b> {data.get('instagramUsername')}\n"
+        f"<b>⌛️ Yosh:</b> {data.get('age')}\n"
+        f"<b>💭 Fikr-mulohaza:</b> {data.get('idea')}\n"
+        f"<b>🤔 Xulosa:</b> {data.get('ideaDescription')}\n"
+        f"<b>🤖 Bot haqida:</b> {data.get('ideaAboutBot')}\n"
     )
-    await bot.send_message(chat_id="", text=text)
+    await bot.send_message(chat_id="-1001705998442", text=text)
     await state.finish()
