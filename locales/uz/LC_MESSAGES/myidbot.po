@@ -24,15 +24,15 @@ msgstr "Siz bilan bog’lanish mumkin bo’ladigan raqamni kiriting"
 msgid "Siz ro'yxatdan o'tgansiz"
 msgstr "Siz ro'yxatdan o'tgansiz"
 
-msgid "Tilni o'zgartirish uchun bosing"
+msgid "Tilni o'zgartirish uchun bosing."
 msgstr "Tilni o'zgartirish uchun bosing"
 
 msgid ""
 "Tanlovning barcha shartlari bajarilganligini tekshirish uchun "
-"Instagramdagi nikneymingizni yozib qoldiring"
+"Instagramdagi nikneymingizni yozib qoldiring (masalan: @username)"
 msgstr ""
 "Tanlovning barcha shartlari bajarilganligini tekshirish uchun "
-"Instagramdagi nikneymingizni yozib qoldiring"
+"Instagramdagi nikneymingizni yozib qoldiring (masalan: @username)"
 
 msgid "Yoshingizni kiriting"
 msgstr "Yoshingizni kiriting"
@@ -44,12 +44,24 @@ msgid "Fikr-mulohazangizni batafsil ifodalab bering"
 msgstr "Fikr-mulohazangizni batafsil ifodalab bering"
 
 msgid ""
-"\"MyID texnologiyasini biznesda qo‘llash\" mavzusidagi tanlov haqida "
-"fikringizni yozib qoldiring"
+"Bu bot nima bera oladi? \"MyID texnologiyasini biznesda qo‘llash\" "
+"mavzusidagi tanlov haqida fikringizni yozib qoldiring"
 msgstr ""
-"\"MyID texnologiyasini biznesda qo‘llash\" mavzusidagi tanlov haqida "
-"fikringizni yozib qoldiring"
+"Bu bot nima bera oladi? \"MyID texnologiyasini biznesda qo‘llash\" "
+"mavzusidagi tanlov haqida fikringizni yozib qoldirin"
 
-msgid "Javobingiz qabul qilindi! Ishtirok etganingiz uchun rahmat"
+msgid "Javobingiz qabul qilindi! Ishtirok etganingiz uchun rahmat."
 msgstr "Javobingiz qabul qilindi! Ishtirok etganingiz uchun rahmat"
+
+msgid "18 yoshgacha"
+msgstr "18 yoshgacha"
+
+msgid "18 yoshdan 25 yoshgacha"
+msgstr "18 yoshdan 25 yoshgacha"
+
+msgid "26 yoshdan 35 yoshgacha"
+msgstr "26 yoshdan 35 yoshgacha"
+
+msgid "35 yoshdan katta"
+msgstr "35 yoshdan katta"
 

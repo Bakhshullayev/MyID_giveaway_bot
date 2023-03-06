@@ -1,6 +1,7 @@
 from aiogram import types
 
 from keyboards.inline import language_btn
+from keyboards.reply import contact_btn
 from loader import dp
 from middlewares import i18n
 from utils.database import db
@@ -20,7 +21,7 @@ async def start_cmd(msg: types.Message):
 
     if not info.get("phoneNumber"):
         text = _("Siz bilan bog’lanish mumkin bo’ladigan raqamni kiriting")
-        await msg.answer(text)
+        await msg.answer(text, reply_markup=contact_btn)
         await Form.phoneNumber.set()
         return
 

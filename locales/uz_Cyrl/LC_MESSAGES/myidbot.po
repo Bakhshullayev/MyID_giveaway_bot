@@ -24,15 +24,15 @@ msgstr "Сиз билан боғланиш мумкин бўладиган ра�
 msgid "Siz ro'yxatdan o'tgansiz"
 msgstr "Сиз рўйхатдан ўтгансиз"
 
-msgid "Tilni o'zgartirish uchun bosing"
+msgid "Tilni o'zgartirish uchun bosing."
 msgstr "Тилни танланг"
 
 msgid ""
 "Tanlovning barcha shartlari bajarilganligini tekshirish uchun "
-"Instagramdagi nikneymingizni yozib qoldiring"
+"Instagramdagi nikneymingizni yozib qoldiring (masalan: @username)"
 msgstr ""
-"Танловнинг барча шартлари бажарилганлигини текшириш учун Instagramдаги "
-"никнеймингизни ёзиб қолдиринг"
+"Танловнинг барча шартлари бажарилганлигини текшириш учун Инстаграмдаги "
+"никнеймингизни ёзиб қолдиринг (масалан: @username)"
 
 msgid "Yoshingizni kiriting"
 msgstr "Ёшингизни киритинг"
@@ -43,14 +43,25 @@ msgstr "Сизнинг фикр-мулоҳазангиз"
 msgid "Fikr-mulohazangizni batafsil ifodalab bering"
 msgstr "Фикр-мулоҳазангизни батафсил ифодалаб беринг"
 
-#, fuzzy
 msgid ""
-"\"MyID texnologiyasini biznesda qo‘llash\" mavzusidagi tanlov haqida "
-"fikringizni yozib qoldiring"
+"Bu bot nima bera oladi? \"MyID texnologiyasini biznesda qo‘llash\" "
+"mavzusidagi tanlov haqida fikringizni yozib qoldiring"
 msgstr ""
-"МyID технологиясини бизнесда қўллаш мавзусидаги танлов ҳақида фикрингизни"
-" ёзиб қолдиринг"
+"Бу бот нима бера олади? \"МyID технологиясини бизнесда қўллаш мавзусидаги"
+" танлов ҳақида фикрингизни ёзиб қолдиринг"
 
-msgid "Javobingiz qabul qilindi! Ishtirok etganingiz uchun rahmat"
+msgid "Javobingiz qabul qilindi! Ishtirok etganingiz uchun rahmat."
 msgstr "Жавобингиз қабул қилинди! Иштирок этганингиз учун раҳмат"
+
+msgid "18 yoshgacha"
+msgstr "18 ёшгача"
+
+msgid "18 yoshdan 25 yoshgacha"
+msgstr "18 ёшдан 25 ёшгача"
+
+msgid "26 yoshdan 35 yoshgacha"
+msgstr "26 ёшдан 35 ёшгача"
+
+msgid "35 yoshdan katta"
+msgstr "35 ёшдан катта"
 

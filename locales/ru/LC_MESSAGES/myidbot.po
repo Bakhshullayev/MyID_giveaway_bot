@@ -25,15 +25,15 @@ msgstr "Отправьте свой номер для связи"
 msgid "Siz ro'yxatdan o'tgansiz"
 msgstr "Вы зарегистрированы"
 
-msgid "Tilni o'zgartirish uchun bosing"
+msgid "Tilni o'zgartirish uchun bosing."
 msgstr "Выберите язык"
 
 msgid ""
 "Tanlovning barcha shartlari bajarilganligini tekshirish uchun "
-"Instagramdagi nikneymingizni yozib qoldiring"
+"Instagramdagi nikneymingizni yozib qoldiring (masalan: @username)"
 msgstr ""
 "Напишите свой никнейм в Instagram для проверки выполнения всех условий "
-"конкурса"
+"конкурса (например: @username)"
 
 msgid "Yoshingizni kiriting"
 msgstr "Укажите свой возраст"
@@ -45,12 +45,24 @@ msgid "Fikr-mulohazangizni batafsil ifodalab bering"
 msgstr "Расскажите про свою идею подробнее"
 
 msgid ""
-"\"MyID texnologiyasini biznesda qo‘llash\" mavzusidagi tanlov haqida "
-"fikringizni yozib qoldiring"
+"Bu bot nima bera oladi? \"MyID texnologiyasini biznesda qo‘llash\" "
+"mavzusidagi tanlov haqida fikringizni yozib qoldiring"
 msgstr ""
-"Отправляйте свои конкурсные идеи на тему \"Применение технологии MyID в "
-"бизнесе\""
+"Что умеет этот бот? Отправляйте свои конкурсные идеи на тему \"Применение"
+" технологии MyID в бизнесе\""
 
-msgid "Javobingiz qabul qilindi! Ishtirok etganingiz uchun rahmat"
+msgid "Javobingiz qabul qilindi! Ishtirok etganingiz uchun rahmat."
 msgstr "Ваш ответ принят! Спасибо за участие"
+
+msgid "18 yoshgacha"
+msgstr "до 18 лет"
+
+msgid "18 yoshdan 25 yoshgacha"
+msgstr "от 18 лет до 25 лет"
+
+msgid "26 yoshdan 35 yoshgacha"
+msgstr "от 26 лет до 35 лет"
+
+msgid "35 yoshdan katta"
+msgstr "старше 35 лет"
 

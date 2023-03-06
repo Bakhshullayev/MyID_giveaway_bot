@@ -2,6 +2,7 @@ from aiogram import types
 from aiogram.dispatcher import FSMContext
 
 from keyboards.inline import language_cb, language_btn
+from keyboards.reply import contact_btn
 from loader import dp
 from middlewares import i18n
 from utils.database import db
@@ -12,9 +13,7 @@ _ = i18n.lazy_gettext
 
 @dp.message_handler(commands=["language"], state="*")
 async def language_cmd(msg: types.Message, state: FSMContext):
-    await msg.answer(
-        _("Tilni o'zgartirish uchun bosing."), reply_markup=await language_btn()
-    )
+    await msg.answer(_("Tilni o'zgartirish uchun bosing."), reply_markup=language_btn)
     await state.finish()
 
 
@@ -30,6 +29,6 @@ async def language(call: types.CallbackQuery, callback_data: dict):
 
     if not info.get("phoneNumber"):
         text = _("Siz bilan bog’lanish mumkin bo’ladigan raqamni kiriting", locale=lang)
-        await call.message.answer(text)
+        await call.message.answer(text, reply_markup=contact_btn)
         await Form.phoneNumber.set()
         return
