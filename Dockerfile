@@ -25,4 +25,6 @@ RUN pip install --no-cache /wheels/*
 
 COPY . .
 
+RUN pybabel compile -d locales -D myidbot
+
 CMD ["python", "-u", "app.py"]
