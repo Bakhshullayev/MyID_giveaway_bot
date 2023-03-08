@@ -11,6 +11,8 @@ services:
       - mongodb
     depends_on:
       - mongodb
+    env_file:
+      - .env
 
   mongodb:
     image: mongo:latest

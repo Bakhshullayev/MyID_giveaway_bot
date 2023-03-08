@@ -33,12 +33,12 @@ class MongoDB:
 
     async def user_info(self, user_id):
         if await self.db.users.find_one({"user_id": user_id}) is None:
-            self.db.users.insert_one({"user_id": user_id})
+            await self.db.users.insert_one({"user_id": user_id})
 
         return await self.db.users.find_one({"user_id": user_id})
 
     async def update_info(self, user_id: str, data: dict) -> None:
-        self.db.users.update_one({"user_id": user_id}, {"$set": data}, upsert=True)
+        await self.db.users.update_one({"user_id": user_id}, {"$set": data}, upsert=True)
 
 
 db = MongoDB()
