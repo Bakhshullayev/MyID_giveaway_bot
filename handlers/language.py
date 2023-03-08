@@ -18,6 +18,8 @@ async def language_cmd(msg: types.Message, state: FSMContext):
 
 
 @dp.callback_query_handler(language_cb.filter())
+@dp.callback_query_handler(language_cb.filter())
+@dp.callback_query_handler(language_cb.filter())
 async def language(call: types.CallbackQuery, callback_data: dict):
     lang = callback_data.get("code")
     await db.update_info(call.from_user.id, data={"lang": lang})
