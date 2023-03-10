@@ -18,7 +18,7 @@ async def get_phone_number(msg: types.Message, state: FSMContext):
     text = _(
         "Tanlovning barcha shartlari bajarilganligini tekshirish uchun Instagramdagi nikneymingizni yozib qoldiring (masalan: @username)"
     )
-    await msg.answer(text, reply_markup=types.ReplyKeyboardMarkup())
+    await msg.answer(text, reply_markup=types.ReplyKeyboardRemove())
     await Form.instagramUsername.set()
 
 
@@ -42,7 +42,7 @@ async def get_age(msg: types.Message, state: FSMContext):
     await state.update_data(age=msg.text)
     text = _("Sizning fikr-mulohazangiz")
 
-    await msg.answer(text, reply_markup=types.ReplyKeyboardMarkup())
+    await msg.answer(text, reply_markup=types.ReplyKeyboardRemove())
     await Form.idea.set()
 
 
