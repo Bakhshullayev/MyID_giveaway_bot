@@ -42,7 +42,7 @@ async def get_age(msg: types.Message, state: FSMContext):
     await state.update_data(age=msg.text)
     text = _("Sizning fikr-mulohazangiz")
 
-    await msg.answer(text)
+    await msg.answer(text, reply_markup=types.ReplyKeyboardMarkup())
     await Form.idea.set()
 
 
